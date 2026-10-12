@@ -1,5 +1,5 @@
 # Exploratory Data Analysis w/SQL: Job Market Analysis
-![alt text](<../Images/1_1_Project1_EDA (1).png>)
+![Project Overview](./1_1_Project1_EDA.png)
 
 A SQL project analyzing the data engineering job market using 
 the rela world job posting data. It demonstarates my ability to **write production-quality analytical SQL, design efficient queires, and turn business questions into data-driven insights.**
@@ -74,5 +74,5 @@ By querying across these interconnected tables, I extracted insights about skill
 -**Condtional Logic**: `CASE WHEN` statements for derived metrics  
 -**Mathematical Functions**: `LN()` for natural logarithm transformation to normalize demand metrics  
 -**Calculate Metrics**: Derived optimal score combing log-tranformed demand with median salary   
--**HAVING Clause**: Filtering aggregated results (skills with >= 100 postings)  
+-**HAVING Clause**: Filtering aggregated results (skills with >= 100 postings)
 -**NULL Handling**: Proper filtering of incomlete records (`salary_year_avg IS NOT NULL`)
